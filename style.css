@@ -32,3 +32,20 @@ header
 	font-family: "Roboto", sans-serif;
 	font-size: 15px;
 }
+
+.main-nav li.active a 
+{
+	border: 1px solid white;
+}
+
+.main-nav li.active a:hover
+{
+	border: 1px solid white;
+}
+
+.logo img
+{
+	width: 150px;
+	height: auto;
+	float: left;
+}
