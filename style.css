@@ -12,34 +12,39 @@ h1 {
 	font-size: 80px;
 }
 
-.image {
+.image-div {
     max-width: 100%;
     height: auto;
     text-align: center;
-    opacity: 0.8;
+    color: white;
+    border: 10px solid #EEEEEE;
 }
 
-#photo {
-    width: 80%;
+#image {
+    width: 100%;
     height: auto;
     position: relative;
     mix-blend-mode: screen;
 }
 
-img.half_fade {
-   top:0;left:0;
-   z-index:-1000;
-}
-
-.accomplishments {
+.tribute-info {
+	margin: auto;
 	color: white;
 	text-align: center;
 	font-family: Mukta;
 	background-color: rgba(27, 27, 30, 0.5);
+	max-width: 70%;
 }
 
 ul {
 	text-align: center;
 	display: inline-block;
-	margin-left: 420px;
+}
+
+#quote {
+	margin-top: 10px;
+	font-family: Mukta;
+	font-weight: 600;
+	color: white;
+	font-size: 1.5em;
 }
