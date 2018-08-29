@@ -15,7 +15,6 @@ h1 {
 .image {
     max-width: 100%;
     height: auto;
-    border: 5px solid white;
     text-align: center;
     opacity: 0.8;
 }
@@ -23,7 +22,6 @@ h1 {
 #photo {
     width: 80%;
     height: auto;
-    border: 5px solid blue;
     position: relative;
     mix-blend-mode: screen;
 }
@@ -31,4 +29,17 @@ h1 {
 img.half_fade {
    top:0;left:0;
    z-index:-1000;
+}
+
+.accomplishments {
+	color: white;
+	text-align: center;
+	font-family: Mukta;
+	background-color: rgba(27, 27, 30, 0.5);
+}
+
+ul {
+	text-align: center;
+	display: inline-block;
+	margin-left: 420px;
 }
