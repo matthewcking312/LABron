@@ -1,6 +1,6 @@
 body {
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(backdrop.jpg);
-	height: 100vh;
+	background-image: linear-gradient(rgba(85,37,130,0.6),rgba(253,185,39,0.6))/*,url(backdrop.jpg)*/;
+	height: 100%;
 	background-size: cover;
 	background-position: center;
 }
@@ -13,8 +13,9 @@ h1 {
 }
 
 .image-div {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
+    margin: auto;
     text-align: center;
     color: white;
     border: 10px solid #EEEEEE;
@@ -34,6 +35,8 @@ h1 {
 	font-family: Mukta;
 	background-color: rgba(27, 27, 30, 0.5);
 	max-width: 70%;
+	margin-bottom: 20px;
+	padding: 20px;
 }
 
 ul {
