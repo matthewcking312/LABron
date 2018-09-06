@@ -12,8 +12,7 @@ h1 {
 	font-size: 80px;
 }
 
-.image-div {
-    max-width: 80%;
+#img-div {
     height: auto;
     margin: auto;
     text-align: center;
@@ -21,8 +20,13 @@ h1 {
     border: 10px solid #EEEEEE;
 }
 
+#img-caption {
+	font-family: Mukta;
+}
+
 #image {
-    width: 100%;
+	width: 90%;
+    max-width: 1200px;
     height: auto;
     position: relative;
     mix-blend-mode: screen;
@@ -35,7 +39,7 @@ h1 {
 	font-family: Mukta;
 	background-color: rgba(27, 27, 30, 0.5);
 	max-width: 70%;
-	margin-bottom: 20px;
+	margin: 20px auto;
 	padding: 20px;
 }
 
@@ -50,4 +54,12 @@ ul {
 	font-weight: 600;
 	color: white;
 	font-size: 1.5em;
+}
+
+#tribute-info {
+	font-family: Mukta;
+}
+
+#tribute-link {
+	font-color: rgb(85,37,130);
 }
